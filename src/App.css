@@ -1,0 +1,44 @@
+.container {
+  width: 80%;
+  height: 90%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0 auto;
+}
+
+.mapDiv {
+  padding: 0;
+  margin: 0;
+  height: 98%;
+  width: 98%;
+}
+
+.esri-popup__header {
+  background-color: var(--color-popup);
+  padding: 0;
+}
+
+.esri-feature__content-element {
+  padding: 7px 7px;
+}
+
+/*Last edited display field */
+/* .esri-feature__last-edited-info { 
+  display: none;
+} */
+
+.esri-basemap-toggle__container,
+.esri-basemap-toggle__image {
+  width: 30px;
+  height: 30px;
+}
+
+.esri-basemap-toggle {
+  width: 36px;
+  height: 36px;
+}
+
+
+/* .esri-ui-corner .esri-component.esri-widget--panel {
+  width: 200px !important;
+} */

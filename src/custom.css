@@ -1,0 +1,132 @@
+.flex-container {
+  height: 90%;
+  display: flex;
+  overflow: hidden;
+  padding-right: 1.5em
+}
+
+.viewDiv {
+  flex: 2;
+  padding: 0;
+  margin: 0;
+  height: 96%;
+  width: 98%;
+}
+
+#infoDiv {
+  position: absolute;
+  top: 40px;
+  left: 280px;
+}
+
+#infoDiv input {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
+}
+
+.side-panel {
+  flex: .5;
+  padding: 1em;
+  overflow: auto;
+}
+
+.container {
+  border-bottom: solid 1px #ccc;
+}
+
+h3 {
+  color: #ffa500;
+}
+
+.esri-feature__title {
+  background-color: #e6e6e6;
+  padding: 0.25em;
+}
+
+.esri-feature__size-container {
+  background: #f5f5f5;
+}
+
+/* .esri-ui-corner .esri-component.esri-widget--panel {
+  width: 200px !important;
+} */
+
+.directions-display {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Classes for the Rotation block and buttons in 3D view */
+
+#buttonsDiv {
+  position: absolute;
+  top: 36px;
+  margin: 5px 41px;
+  font-size: 18px;
+}
+
+.rotateClockwise {
+  border: none;
+}
+
+.rotateClockwise::after {
+  content: "\2B6E";
+}
+
+.rotateIndicator {
+  border: none;
+  margin-top: 38px !important;
+}
+
+.rotateIndicator::after {
+  content: "\21C5"
+}
+
+.rotateAntiClockwise {
+  border: none;
+  margin-top: 71px !important;
+}
+
+.rotateAntiClockwise::after {
+  content: "\2B6F";
+}
+
+.esri-component.esri-legend.esri-widget.esri-widget--panel {
+  width: 200px;
+}
+
+/* Rotation block and buttons in 3D view */
+
+/* #rotateAntiClockwiseSpan,
+#rotateClockwiseSpan,
+#indicatorSpan {
+  width: 32px;
+  height: 32px;
+  border: none;
+  margin: 1px
+}
+
+#indicatorSpan {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+  background-color: rgba(100, 100, 100, 0.8);
+  border: 2px solid #ccc;
+} */
+
+/* #buttonsDiv {
+  position: absolute;
+  top: 35px;
+  margin: 5px 41px;
+  right: 12px;
+  padding: 12px;
+  background-color: rgba(200, 200, 200, 0.5);
+  border: 1px solid black;
+  border: 1px dashed grey;
+} */
+
+/* #buttonsDiv input {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px;
+} */

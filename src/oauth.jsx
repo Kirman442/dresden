@@ -1,0 +1,1 @@
+export const myappid='oF3oAcMo7lKWpzfA'
