@@ -56,8 +56,8 @@ const TwoThreePageDraft = () => {
         sceneView: sceneViewHook, //null
         activeView: activeViewHook, //null
         container: viewDiv.current, // use same container for views
-        center: [13.572059, 51.044705],
-        zoom: 14,
+        center: [13.627912, 51.046149],
+        zoom: 13,
         navigation: {
           mouseWheelZoomEnabled: false,
           browserTouchPanEnabled: true
