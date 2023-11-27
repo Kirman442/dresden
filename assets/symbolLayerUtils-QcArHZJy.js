@@ -1,0 +1,7 @@
+import{gs as v,bx as n,co as y,di as p,gt as c,d8 as b,gu as w,fL as l}from"./index-etWHd6DB.js";let s=f();function f(){return new v(50)}function x(){s=f()}async function T(r,i){var o,t;if((o=r.resource)!=null&&o.href)return g(r.resource.href).then(e=>[e.width,e.height]);if((t=r.resource)!=null&&t.primitive)return i!=null?[i,i]:[256,256];throw new n("symbol3d:invalid-symbol-layer","symbol layers of type Icon must have either an href or a primitive resource")}function g(r){return y(r,{responseType:"image"}).then(i=>i.data)}async function B(r,i=null){var t;if(!r.isPrimitive){const e=r.resource.href;if(!e)throw new n("symbol:invalid-resource","The symbol does not have a valid resource");const a=s.get(e);if(a!==void 0)return a;const{fetch:h}=await p(()=>import("./index-etWHd6DB.js").then(d=>d.C7),__vite__mapDeps([0,1])),m=await h(e,{disableTextures:!0}),u=c(m.referenceBoundingBox,l());return s.put(e,u),u}if(!((t=r.resource)!=null&&t.primitive))throw new n("symbol:invalid-resource","The symbol does not have a valid resource");const o=b(w(r.resource.primitive));if(i!=null)for(let e=0;e<o.length;e++)o[e]*=i;return c(o,l())}export{x as clearBoundingBoxCache,T as computeIconLayerResourceSize,B as computeObjectLayerResourceSize};
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = ["assets/index-etWHd6DB.js","assets/index-2jScoq2u.css"]
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}
