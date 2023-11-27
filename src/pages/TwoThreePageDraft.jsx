@@ -57,13 +57,13 @@ const TwoThreePageDraft = () => {
         activeView: activeViewHook, //null
         container: viewDiv.current, // use same container for views
         center: [13.627912, 51.046149],
-        zoom: 13,
+        zoom: 15,
         navigation: {
           mouseWheelZoomEnabled: false,
           browserTouchPanEnabled: true
         },
         camera: {
-          position: [13.589245, 50.935033, 25000], //Position for the 3D view model
+          position: [13.627912, 51.046149, 5000], //Position for the 3D view model
           tilt: 25
         },
         environment: {
