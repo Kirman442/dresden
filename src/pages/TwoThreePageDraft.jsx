@@ -44,7 +44,7 @@ const TwoThreePageDraft = () => {
       /**
        * Initialize application
        */
-      esriConfig.apiKey = "AAPKcd76c9b5c5274aa895ef6f96bd59bc9cWy9ETwS5g3mqxn4MoLmoIBhHdSfwGeN6aD4tmKXbsrECfuHPeDAv2v1Qaqm_EIO8";
+      esriConfig.apiKey = "AAPTxy8BH1VEsoebNVZXo8HurJQZlWkb1rBQ_BTUXswT6kGz6PtR396fgKsp5EsNB1FY_XoJ6OoCR9o96w1T8rYLpJCpdI_Wy7BWZg_1wx4QK7gLhJ8jCherIpVE23IbieDU3X5opw6KKJl1dkg49oPwfg3wXE3pkqJfnLTnwUEamkJIjB1oBw0kjg_ZMCjOfln3eQAM9ZquGzl6pfUWKGX3IMfV5StjR1tDt_xT_SJ_HtZNMoS3vuo-3JT4YmoCqraXAT1_mde67ubh";
 
       let editor;
       let features = undefined || []; // changed from  - let features
