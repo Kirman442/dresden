@@ -1,1 +1,0 @@
-import{cF as a,c7 as s}from"./index-etWHd6DB.js";import{S as f,p as e}from"./query-gudo2lea.js";async function u(n,t,o){const r=a(n);return f(r,s.from(t),{...o}).then(c=>c.data.count)}async function i(n,t,o){const r=a(n);return e(r,s.from(t),{...o}).then(c=>c.data.objectIds)}export{u as n,i as s};
