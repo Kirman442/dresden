@@ -8,7 +8,7 @@ import { landusePopup, transportPopup, powerObjectPopup, powerLinePopup, buildin
 
 // Dresden Landuse
 export const landuse = new FeatureLayer({
-  portalItem: { id: "92743ca80aec44ff8d22335d9afca697" },
+  portalItem: { id: "3caf3068d65645a49e6dc784472895a2" }, //92743ca80aec44ff8d22335d9afca697
   renderer: katasterLanduseRenderer,
   // outFields: ["*"],
   visible: true,
@@ -18,7 +18,7 @@ export const landuse = new FeatureLayer({
 
 // Dresden Buildings
 const buildings = new FeatureLayer({
-  portalItem: { id: "68d95a30e8034b58af78ffdf7c797e70" },
+  portalItem: { id: "8cbb78460dbf4c91beaee9db006c1633" }, //68d95a30e8034b58af78ffdf7c797e70
   renderer: katasterBuildingRenderer,
   outFields: ["*"],
   visible: true,
@@ -37,7 +37,7 @@ const landuseGroupLayer = new GroupLayer({
 
 // Dresden Transport
 export const transport = new FeatureLayer({
-  portalItem: { id: "1e61ce91223240afb234eb4f9d6a43c7" },
+  portalItem: { id: "c761fe8e3b1f4496befe5254c35343d5" },
   renderer: transportRenderer,
   outFields: ["*"],
   visible: true,
@@ -47,7 +47,7 @@ export const transport = new FeatureLayer({
 
 // Dresden Roads
 const roads = new FeatureLayer({
-  portalItem: { id: "f0fb7804800c4bac8d594a2dadad133b" },
+  portalItem: { id: "b84565a5036842ee9af31fe27969f0f4" },
   renderer: roadRenderer,
   visible: false,
   title: "Roads"
@@ -55,7 +55,7 @@ const roads = new FeatureLayer({
 
 // Dresden Routes
 const routes = new FeatureLayer({
-  portalItem: { id: "a188ac9b3e294730909f9c471515204c" },
+  portalItem: { id: "4589a9bbc6e84041ba0237a4bd0dc823" },
   renderer: routeRenderer,
   visible: false,
   title: "Routes"
@@ -71,7 +71,7 @@ const transportGroupLayer = new GroupLayer({
 });
 
 const natur = new FeatureLayer({
-  portalItem: { id: "1f1a3621ba314e7a9ad1c1aca2c4a719" },
+  portalItem: { id: "88fa74f9b43b48c4becd81ad45ecb21a" },
   renderer: naturRenderer,
   visible: false,
   title: "Trees"
@@ -79,7 +79,7 @@ const natur = new FeatureLayer({
 
 // Dresden Water
 const water = new FeatureLayer({
-  portalItem: { id: "5b586405db974551845c1e38a7ad3c4d" },
+  portalItem: { id: "e6cdfc2bb38f440d9f73723e9102ffe3" },
   visible: false,
   title: "Water"
 });
@@ -95,7 +95,7 @@ const naturGroupLayer = new GroupLayer({
 
 // Dresden Power
 export const power = new FeatureLayer({
-  portalItem: { id: "f8b49a0d1b384ea2859fb5c0d558cb60" },
+  portalItem: { id: "42c05353c9fb48f08aff8f6cf5271e82" }, //f8b49a0d1b384ea2859fb5c0d558cb60
   renderer: stromRenderer,
   visible: true,
   title: "Infrastructure",
@@ -104,7 +104,7 @@ export const power = new FeatureLayer({
 
 // Dresden Powerlines
 export const powerlines = new FeatureLayer({
-  portalItem: { id: "a3e5308a28ed41b5b6f44b9618656001" },
+  portalItem: { id: "b6a6b1148c874b5eae4483667ec4e56a" }, //a3e5308a28ed41b5b6f44b9618656001
   renderer: stromLineRenderer,
   title: "Network",
   visible: true,
